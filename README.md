@@ -56,47 +56,6 @@ npm install
 yarn install
 ```
 
-### Ejecución en Desarrollo
-
-```bash
-npm start
-# o
-yarn start
-```
-
-Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver la aplicación.
-
-## ⚙️ Scripts Disponibles
-
-* `npm start` / `yarn start`: inicia el servidor de desarrollo.
-* `npm run build` / `yarn build`: genera los archivos estáticos para producción.
-* `npm run deploy` / `yarn deploy`: construye y publica en GitHub Pages.
-
-> **Nota**: Asegúrate de configurar el campo `homepage` en `package.json`:
->
-> ```json
-> {
->   "homepage": "https://tu-usuario.github.io/la-estacion"
-> }
-> ```
-
-## 📁 Estructura del Proyecto
-
-```
-la-estacion/
-├── public/
-│   └── index.html
-├── src/
-│   ├── components/      # Componentes reutilizables
-│   ├── pages/           # Vistas para cada sección
-│   ├── assets/          # Imágenes y estilos
-│   ├── App.jsx
-│   └── index.js
-├── .gitignore
-├── package.json
-└── README.md
-```
-
 ## 🎨 Wireframe
 
 El diseño actual sigue el boceto proporcionado, con bloques de contenido identificados:
