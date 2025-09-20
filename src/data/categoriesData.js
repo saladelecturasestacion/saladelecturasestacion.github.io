@@ -1,4 +1,3 @@
-// src/data/categoriesData.js
 const categories = [
   {
     id: 1,

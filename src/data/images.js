@@ -1,10 +1,7 @@
-// src/data/images.js
 import juegosPortada from '../assets/juegosPortada.jpg'
 import lecturaPortada from '../assets/lecturaPortada.jpg'
 import manualidadesPortada from '../assets/manualidadesPortada.jpg'
 import culturaPortada from '../assets/culturaPortada.jpg'
-
-// juegos
 import j1 from '../assets/juegosCarusel/carusel1.jpg'
 import j2 from '../assets/juegosCarusel/carusel2.jpg'
 import j3 from '../assets/juegosCarusel/carusel3.jpg'
@@ -15,8 +12,6 @@ import j7 from '../assets/juegosCarusel/carusel7.jpg'
 import j8 from '../assets/juegosCarusel/carusel8.jpg'
 import j9 from '../assets/juegosCarusel/carusel9.jpg'
 import j10 from '../assets/juegosCarusel/carusel10.jpg'
-
-//lectura
 import l1 from '../assets/lecturaCarusel/carusel1.jpg'
 import l2 from '../assets/lecturaCarusel/carusel2.jpg'
 import l3 from '../assets/lecturaCarusel/carusel3.jpg'
@@ -27,8 +22,6 @@ import l7 from '../assets/lecturaCarusel/carusel7.jpg'
 import l8 from '../assets/lecturaCarusel/carusel8.jpg'
 import l9 from '../assets/lecturaCarusel/carusel9.jpg'
 import l10 from '../assets/lecturaCarusel/carusel10.jpg'
-
-//manualidades
 import m1 from '../assets/manualidadesCarusel/carusel1.jpg'
 import m2 from '../assets/manualidadesCarusel/carusel2.jpg'
 import m3 from '../assets/manualidadesCarusel/carusel3.jpg'
@@ -39,8 +32,6 @@ import m7 from '../assets/manualidadesCarusel/carusel7.jpg'
 import m8 from '../assets/manualidadesCarusel/carusel8.jpg'
 import m9 from '../assets/manualidadesCarusel/carusel9.jpg'
 import m10 from '../assets/manualidadesCarusel/carusel10.jpg'
-
-//cultura
 import c1 from '../assets/culturaCarusel/carusel1.jpg'
 import c2 from '../assets/culturaCarusel/carusel2.jpg'
 import c3 from '../assets/culturaCarusel/carusel3.jpg'

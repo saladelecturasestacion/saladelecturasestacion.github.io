@@ -1,4 +1,3 @@
-// App.jsx (actualizado)
 import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import CategoryPage from './pages/CategoryPage'

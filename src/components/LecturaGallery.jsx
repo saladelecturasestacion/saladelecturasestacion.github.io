@@ -19,7 +19,6 @@ export default function LecturaGallery() {
     }
   })
 
-  // Usa captions de texts.gallery.juegos por ahora, o cambia a texts.gallery.lectura si los defines
   const items = images.gallery.lectura.map((src, i) => ({
     src,
     alt: texts.gallery.juegos[i]?.alt || `Lectura ${i + 1}`,

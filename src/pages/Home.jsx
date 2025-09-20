@@ -1,4 +1,3 @@
-// src/pages/Home.jsx
 import React from 'react'
 import ActivityList from '../components/ActivityList'
 import Section from '../components/Section'
@@ -9,7 +8,6 @@ export default function Home() {
 
   return (
     <div className="space-y-16">
-      {/* Banner simplificado */}
       <section
        className="
          w-full
@@ -30,24 +28,19 @@ export default function Home() {
      </section>
 
 
-      {/* Actividades */}
       <ActivityList />
 
-      {/* Mensajes */}
       <Section id="mensajes" title={sections.mensajes.title} accent="naranja">
         <p className="text-morado">
           {sections.mensajes.content}
         </p>
       </Section>
 
-      {/* Calendario de Eventos */}
       <Section id="calendario" title={sections.calendario.title} accent="verde">
         <p className="text-morado">
           {sections.calendario.content}
         </p>
       </Section>
-
-      {/* Dónde nos ubicamos */}
       <Section id="ubicacion" title={sections.ubicacion.title} accent="rojo">
         <div
           className="w-full rounded-xl overflow-hidden shadow-playful mb-4"
@@ -74,8 +67,6 @@ export default function Home() {
           </a>
         </div>
       </Section>
-
-      {/* Contacto */}
       <Section id="contacto" title={sections.contacto.title} accent="morado">
         <ul className="text-morado space-y-2">
           {sections.contacto.items.map(({ icon, label, value }) => (

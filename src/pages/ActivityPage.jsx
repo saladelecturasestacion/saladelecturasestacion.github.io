@@ -1,4 +1,3 @@
-// src/pages/ActivityPage.jsx
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import texts from '../data/texts'
@@ -25,7 +24,6 @@ export default function ActivityPage() {
     )
   }
 
-  // Mapea cada id a su componente de galería
   const galleryMap = {
     juegos:        <JuegosGallery />,
     lectura:       <LecturaGallery />,
@@ -36,24 +34,20 @@ export default function ActivityPage() {
   return (
     <Section title={data.title} accent="verde">
       <div className="max-w-3xl mx-auto space-y-6">
-        {/* Imagen principal */}
         <img
           src={img}
           alt={data.title}
           className="w-full rounded-xl shadow-playful object-cover aspect-video"
         />
 
-        {/* Descripción */}
         <p className="whitespace-pre-line text-morado">
           {data.description}
         </p>
 
-        {/* Título y galería correspondiente */}
         <div className="pt-8">
           <h2 className="text-2xl font-semibold text-morado mb-4 text-center">
             Galería de {data.title}
           </h2>
-          {/* Este renderiza el componente correcto según el id */}
           {galleryMap[id] || null}
         </div>
       </div>

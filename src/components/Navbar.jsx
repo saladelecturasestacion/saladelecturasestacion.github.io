@@ -1,4 +1,3 @@
-// src/components/Navbar.jsx
 import React, { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { HiMenu, HiX } from 'react-icons/hi'
@@ -36,7 +35,6 @@ export default function Navbar() {
 
   return (
     <>
-      {/* Botón hamburguesa */}
       <button
         onClick={() => setOpen(o => !o)}
         aria-label="Toggle menu"
@@ -50,7 +48,6 @@ export default function Navbar() {
         {open ? <HiX size={32} /> : <HiMenu size={32} />}
       </button>
 
-      {/* Overlay */}
       <div
         onClick={() => setOpen(false)}
         className={`
@@ -59,7 +56,6 @@ export default function Navbar() {
         `}
       />
 
-      {/* Drawer */}
       <nav
         className={`
           fixed inset-y-0 left-0 w-64 bg-fondo shadow-xl z-50
@@ -70,7 +66,6 @@ export default function Navbar() {
         <div className="p-6 space-y-6">
           <h2 className="text-2xl font-bold text-rojo">La Estación</h2>
 
-          {/* Secciones generales */}
           <ul className="space-y-2">
             <li>
               <Link
@@ -94,7 +89,6 @@ export default function Navbar() {
             ))}
           </ul>
 
-          {/* Actividades */}
           <div className="pt-4 border-t border-rojoClaro">
             <h3 className="text-lg font-semibold text-rojo mb-2">Actividades</h3>
             <ul className="space-y-1">

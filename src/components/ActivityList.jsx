@@ -1,4 +1,3 @@
-// src/components/ActivityList.jsx
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
@@ -10,7 +9,6 @@ export default function ActivityList() {
     hidden: {},
     show: { transition: { staggerChildren: 0.1 } }
   }
-  // obtenemos pares [id, data] de activities
   const activityEntries = Object.entries(texts.activities)
 
   return (

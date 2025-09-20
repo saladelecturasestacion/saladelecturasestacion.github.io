@@ -1,5 +1,3 @@
-// src/components/JuegosGallery.jsx
-
 import React, { useState } from 'react'
 import { useKeenSlider } from 'keen-slider/react'
 import 'keen-slider/keen-slider.min.css'
@@ -20,8 +18,6 @@ export default function JuegosGallery() {
       setCurrentSlide(s.track.details.rel)
     }
   })
-
-  // Combina imágenes con captions
   const captions = texts.gallery.juegos
   const sources  = images.gallery.juegos
 
@@ -35,7 +31,6 @@ export default function JuegosGallery() {
 
   return (
     <div className="relative max-w-4xl mx-auto py-8 px-0 sm:px-4">
-      {/* Slider */}
       <div ref={sliderRef} className="keen-slider">
         {slides.map(({ src, alt }, idx) => (
           <div key={idx} className="keen-slider__slide">
@@ -57,7 +52,6 @@ export default function JuegosGallery() {
         ))}
       </div>
 
-      {/* Flechas de navegación */}
       {instanceRef.current && (
         <>
           <button
@@ -85,7 +79,6 @@ export default function JuegosGallery() {
         </>
       )}
 
-      {/* Caption dinámico */}
       <div
         className="
           mt-4
